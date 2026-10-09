@@ -163,6 +163,7 @@ class App_helper():
 			b=open(a,"w")
 			b.close()
 class Menu_helper():
+	@staticmethod
 	def menu(up,down,enter,start,*args):
 		curses.initscr()
 		curses.noecho()
